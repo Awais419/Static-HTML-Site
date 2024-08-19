@@ -1,0 +1,158 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stlye.css" />
+    <!-- Google Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome  -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Electron.pk</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <div class="logo">
+      <img src="Images/logo.png" width="150px" />
+    </div>
+    <nav>
+      <div class="navbar" id="navbars">
+        <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Aboutus.html">About Us</a></li>
+          <li><a href="Team.html">Our Team</a></li>
+          <li><a href="Blog.html">Blogs</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Contact US.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <script>
+      var navbars = document.getElementById("navbars");
+      function showMenu() {
+        navbars.style.left = "0px";
+      }
+      function hideMenu() {
+        navbars.style.left = "-200px";
+      }
+    </script>
+
+    <!-- Header -->
+
+    <!-- SErvices  -->
+    <div class="innner-baner">
+      <div class="iner-content">
+        <h1 style="font-size: 50px">Services</h1>
+        <p>This is Company Services pages</p>
+      </div>
+    </div>
+    <h1 class="heading">What We Offer</h1>
+    <div class="row">
+      <div class="container">
+        <div class="col-6 course">
+          <img src="Images/course.png" class="img-responsive" />
+          <p>Learn Javascript</p>
+          <h4>Become a Web developer</h4>
+        </div>
+        <div class="col-6 course">
+          <img src="Images/course.png" class="img-responsive" />
+          <p>Learn C++</p>
+          <h4>Become a Software Develper</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col-6 course">
+          <img src="Images/course.png" class="img-responsive" />
+          <p>Learn DataBAse</p>
+          <h4>Become a Backend Engineer</h4>
+        </div>
+        <div class="col-6 course">
+          <img src="Images/course.png" class="img-responsive" />
+          <p>Learn HTML/CSS</p>
+          <h4>Become a Web Designer</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Area -->
+    <footer>
+      <div class="row">
+        <div class="container">
+          <div class="col-3">
+            <h3>About Us</h3>
+            <ul>
+              <li>first Menu</li>
+              <li>Seconed Menu</li>
+              <li>Third Menu</li>
+              <li>Forth Menu</li>
+              <li>Fifth Menu</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h3>Services</h3>
+            <ul>
+              <li>first Menu</li>
+              <li>Seconed Menu</li>
+              <li>Third Menu</li>
+              <li>Forth Menu</li>
+              <li>Fifth Menu</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h3>Support</h3>
+            <ul>
+              <li>first Menu</li>
+              <li>Seconed Menu</li>
+              <li>Third Menu</li>
+              <li>Forth Menu</li>
+              <li>Fifth Menu</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h3>Developers</h3>
+            <ul>
+              <li>first Menu</li>
+              <li>Seconed Menu</li>
+              <li>Third Menu</li>
+              <li>Forth Menu</li>
+              <li>Fifth Menu</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Area -->
+    <!-- Copyrigth -->
+    <div class="copywrite">
+      <div class="row">
+        <div class="col-6">
+          <ul>
+            <li>Terms of Service</li>
+            <li>Privacy Policy</li>
+            <li>Sitemap</li>
+            <li>Privacy Choices</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <p style="text-align: right">copywrite &copy; 2023 Electra.pk</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
